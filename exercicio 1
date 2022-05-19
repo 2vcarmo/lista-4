@@ -1,0 +1,17 @@
+   var nota1 = 10;
+    var nota2 = 5;
+    var nota3 = 9;
+    var mediaFinal;
+
+    mediaFinal = (nota1 + nota2 + nota3) / 3;
+    console.log(mediaFinal);
+
+    if(mediaFinal <=5.9)
+    {
+        console.log("REPROVADO");
+    
+    }
+    else (mediaFinal =>6)
+    {
+        console.log('PARABÉNS, VOCÊ ESTÁ APROVADO!!!');
+    }
